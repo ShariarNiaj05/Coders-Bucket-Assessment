@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
 
       {/* sticky navbar  */}
-      <div className="flex flex-col md:flex-row justify-between w-full bg-black bg-opacity-30 p-5 fixed z-50">
+      <div className="flex flex-col md:flex-row justify-between w-full bg-black bg-opacity-30 p-5 fixed z-50 text-white">
         <div className=" font-bold text-xl">Shariar</div>
         <div>
           <NavLink className={activeLinkStyle} to={"/"}>
