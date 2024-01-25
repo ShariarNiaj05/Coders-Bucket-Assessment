@@ -8,7 +8,7 @@ import { CiLinkedin } from "react-icons/ci";
 const Navbar = () => {
   return (
     <nav>
-      <div className="flex flex-col md:flex-row justify-between w-full">
+      <div className="flex flex-col md:flex-row justify-between lg:w-full">
         <div className="bg-black text-white w-10/12 py-3  flex mx-auto justify-star  items-center justify-between">
           <p className="w-1/2 flex items-center gap-3">
             <CiLocationOn className="ml-20 text-red-700" /> 1161. Alberta
@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
 
       {/* sticky navbar  */}
-      <div className="flex flex-col md:flex-row justify-between w-full bg-black bg-opacity-30 p-5 fixed z-50 text-white">
+      <div className="flex flex-col md:flex-row justify-between lg:w-full bg-black bg-opacity-30 p-5 fixed z-50 text-white">
         <div className=" font-bold text-xl">Shariar</div>
         <div>
           <NavLink className={activeLinkStyle} to={"/"}>

@@ -1,7 +1,7 @@
 const SafetyShop = () => {
   return (
     <div className="max-w-7xl mx-auto">
-      <div className="  mt-48 flex gap-x-10">
+      <div className="  mt-48 flex flex-col md:flex-row gap-x-10">
         <div className=" w-1/2">
           <img
             className=" rounded my-auto h-full"
